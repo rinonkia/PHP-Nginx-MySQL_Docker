@@ -25,16 +25,20 @@
 ```git clone https://github.com/rinonkia/PHP-Nginx-MySQL_Docker.git test```
 
 フォルダ内に移動<br>
+
 ```cd test```
 
 ### コンテナの初回起動
 
 Dockerを起動した状態で、以下のコマンドを一行ずつ入力<br>
+
 ```
 docker-compose build
 docker-compose up -d
 ```
+
 このような表記が出れば起動が成功。<br>
+
 ```
 starting php_web_1 ... done
 starting php_app_1 ... done
@@ -46,7 +50,7 @@ starting php_db_1  ... done
 
 ```docker ps```
 
-以下、例です。
+以下、例です。<br>
 
 ```
 // 例

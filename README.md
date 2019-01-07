@@ -45,8 +45,8 @@ starting php_app_1 ... done
 starting php_db_1  ... done
 ```
 
-<br>
 念のためにコンテナ実行中か以下のコマンドで確認してください。<br>
+
 
 ```docker ps```
 
